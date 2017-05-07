@@ -185,6 +185,7 @@
       <script src="js/style_minified.js"></script>
       <script src="js/script.js"></script>
       <script src="js/pipan.js"></script>
+      <script src="pirov/sub.js"></script>
    </head>
    <body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" <?php echo $displayStyle; ?>>
