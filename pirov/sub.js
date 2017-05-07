@@ -15,7 +15,7 @@ $(document).keypress(function(event) {
 });
 
 function send(msg) {
-    $.post("pisub/receiver.php",
+    $.post("pirov/receiver.php",
             {name: msg},
             function (data, status) {
                 console.log("data=["+data+"]");
